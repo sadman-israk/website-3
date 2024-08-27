@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>website-3</title>
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+
+    <!-- manrope-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!--  -->
+    <!-- daisyui cdn and tailwindcss -->
+    \
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--  -->
+    <!-- tailwind config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+ 
+.manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.rgb-bg{
+          background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+        }
+    </style>
+
+
 </head>
-<body>
-    
+
+<body class="manrope rgb-bg">
+    <!-- header section -->
+    <header>
+        <!-- nav -->
+        <nav class="w-11/12 mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+
+                    </div>
+                    <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right px-1.5 py-1.5 bg-[#ABEE60] rounded-3xl -rotate-45  "></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+
+                        <li><a>Services</a></li>
+
+                        <li><a>Portfolio</a></li>
+
+                        <li><a>Blogs</a></li>
+
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-5 flex-evenly md:block hidden">
+
+                    <i class="fa-solid fa-cart-shopping px-3 py-1.89 font-semibold rounded-2xl bg-gray-200"></i>
+                    <i class="fa-brands fa-searchengin px-3 py-1.89 font-semibold rounded-2xl bg-gray-200"></i>
+                    
+
+                </div >
+               
+                    <button class="  md:block hidden px-3 py-1.89 font-semibold rounded-2xl bg-[#ABEE60]  gap-2">BookConsult<i class="fa-solid fa-arrow-right px-1.5 py-1.5 bg-black rounded-3xl -rotate-45  "></i>
+                        
+                        
+
+                    </button>
+                
+            </div>
+        </nav>
+        <!-- banner section -->
+        <section class="">
+            <div class="flex-col  justify-center">
+                <div class="mx-96">
+                    <img src="./assets/banner.png" alt="">
+                </div>
+
+                <div class="text-center ">
+                    <h1 class="font-extrabold text-3xl mb-2">A barn house of this design has a striking appearance</h1>
+                    <p class="font-bold ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <button class=" font-semibold px-3  py-1.8 rounded-3xl bg-[#ABEF5F80] gap-2  space-"> view details<i class="fa-solid fa-arrow-right px-1.5 py-1.5 bg-[#ABEF5F] rounded-2xl -rotate-45  "></i></button>
+
+
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <!-- about us -->
+
+       
+
+        </section>
+
+    </main>
+
+    <!-- footer section -->
+    <footer></footer>
 </body>
+
 </html>
